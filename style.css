@@ -1,0 +1,88 @@
+.logo {
+    width: 250px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul li{
+    float: left;
+    line-height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: white;
+}
+main {
+    width: 100%;
+    clear: both;
+}
+
+.left_column {
+    float: left;
+    width: 70%;
+    padding-right: 50px;
+}
+
+h1{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 4px black solid;
+    border-bottom: 1px black solid;
+    padding: 5px 0px 5px 15px;
+    width: 100%;
+    font-size: 20px;
+}
+
+form{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.text, textarea, .dropdown{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background-color: #fff;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.right_column {
+    float: left;
+    width: 25%;
+}
+
+.right_column h3 {
+    border-bottom: dotted 2px black;
+}
+
+.right_column ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 60px;
+}
